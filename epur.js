@@ -5,9 +5,9 @@ function redirectToSuccessPage() {
     var passwordValue = passwordInput.value;
 
 var reports = {
-"haslo1": "https://google.pl",
-"haslo2": "https://google.pl",
-    };
+    "haslo1": "https://example.com/report1.pdf",
+    "haslo2": "https://example.com/report2.pdf",
+};
 
     if (passwordValue in reports) {
         var url = "epur-results-success";
